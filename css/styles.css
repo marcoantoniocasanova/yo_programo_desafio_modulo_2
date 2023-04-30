@@ -18,7 +18,7 @@ a {
 
 .navbar {
   padding: 2rem;
-  bg-color: lightblue;
+  background-color: lightblue;
 }
 
 .navbar-collapse {
@@ -31,41 +31,38 @@ align-items: center;
 justify-content: space-between;
 }
 
-/* seccion Hero */
+/* seccion Hero carrusel */
 
-.hero {
-  min-height: 450px;
-  text-align: left;
+.tit {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 0 0 8px rgb(2, 2, 2);
 }
 
-#foto {
-  width: 350px;
-  height: 350px;
-  border-radius: 50%;
-  margin: 40px;
-}
-
-#lema {
-  color: rgb(250, 55, 20);
-  font-size: 2.5rem;
-  text-align: center;
-  text-shadow: blue; 
-  text-decoration: ;
-}
 /* sobre mi */
+
+.foto {
+ width: 250px;
+ border-radius: 50%;
+}
 
 #acercademi {
   color: yellow
 }
 
 .sobre-mi {
-  height: 500px;
-  padding: 10px;
+  min-height: 500px;
+  padding: 20px;
 }
 
 .sobre-mi .contenedor {
   max-width: 800px;
   text-align: center;
+  text-justify: center;
+  justify-content: center;
 }
 
 /* secciones */
@@ -89,10 +86,20 @@ section {
 
 .seccion-contenido {
   padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .seccion-titulo {
   font-size: 2.5rem;
+  padding: 20px;
+  text-align: center;
+}
+
+.seccion-texto {
+  font-size: 1.5rem;
   padding: 20px;
   text-align: center;
 }
